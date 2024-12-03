@@ -1,4 +1,3 @@
-/* Corpo do site */
 body {
     font-family: 'Simple Note', cursive, sans-serif;
     background-color: #f5f5f5;
@@ -6,7 +5,7 @@ body {
     padding: 0;
 }
 
-/* Estilo do cabeçalho */
+
 header {
     background-color: #333;
     color: white;
@@ -19,7 +18,7 @@ header .logo img {
     border-radius: 10px;
 }
 
-/* Navegação */
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -37,7 +36,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Seção Sobre Mim */
+
 #sobre-mim {
     padding: 50px 20px;
     background-color: #fff;
@@ -65,7 +64,7 @@ nav ul li a {
     color: #555;
 }
 
-/* Seção Projetos */
+
 #projetos {
     padding: 50px 20px;
     background-color: #fff;
@@ -83,7 +82,7 @@ nav ul li a {
     height: 400px;
 }
 
-/* Seção Inspirações */
+
 #inspiracoes {
     padding: 50px 20px;
     background-color: #f1f1f1;
@@ -146,7 +145,7 @@ nav ul li a {
     color: #555;
 }
 
-/* Seção Onde Tudo Começou */
+
 #onde-tudo-comecou {
     padding: 50px 20px;
     background-color: #fff;
@@ -171,7 +170,7 @@ nav ul li a {
     color: #555;
 }
 
-/* Rodapé */
+
 footer {
     background-color: #333;
     color: white;
@@ -198,7 +197,7 @@ footer {
     background-color: #555;
 }
 
-/* Estilo dos Botões e Fontes */
+
 button {
     font-family: 'Simple Note', cursive;
 }
@@ -207,21 +206,20 @@ button:hover {
     background-color: #555;
 }
 
-/* Rodapé */
+
 footer {
     background-color: #333;
     color: white;
     padding: 20px;
     text-align: center;
-    margin-top: 30px; /* Ajusta a distância do conteúdo */
+    margin-top: 30px; 
 }
 
-/* Rodapé de Contato */
+
 footer p {
     margin: 0;
 }
 
-/* Botão de topo */
 #to-top {
     position: fixed;
     bottom: 40px;
