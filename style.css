@@ -1,0 +1,264 @@
+/* Corpo do site */
+body {
+    font-family: 'Simple Note', cursive, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo img {
+    width: 120px;
+    border-radius: 10px;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Seção Sobre Mim */
+#sobre-mim {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#sobre-mim h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#sobre-mim .about-me img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#sobre-mim p {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    color: #555;
+}
+
+/* Seção Projetos */
+#projetos {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#projetos h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.instagram-widget iframe {
+    width: 100%;
+    border: 0;
+    height: 400px;
+}
+
+/* Seção Inspirações */
+#inspiracoes {
+    padding: 50px 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+#inspiracoes h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.filter-buttons {
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.filter-btn:hover {
+    background-color: #555;
+}
+
+.inspiracoes-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inspiracao-item {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inspiracao-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.inspiracao-item h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.inspiracao-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Seção Onde Tudo Começou */
+#onde-tudo-comecou {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#onde-tudo-comecou h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.galeria-container img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.galeria-container p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#to-top:hover {
+    background-color: #555;
+}
+
+/* Estilo dos Botões e Fontes */
+button {
+    font-family: 'Simple Note', cursive;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px; /* Ajusta a distância do conteúdo */
+}
+
+/* Rodapé de Contato */
+footer p {
+    margin: 0;
+}
+
+/* Botão de topo */
+#to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#to-top:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
