@@ -1,18 +1,16 @@
-// Adiciona funcionalidade para "Voltar ao Topo"
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
     const button = document.createElement('button');
-    button.textContent = '⬆️ Topo';
+    button.textContent = '↑ Topo';
     button.style.position = 'fixed';
     button.style.bottom = '20px';
     button.style.right = '20px';
     button.style.padding = '10px';
-    button.style.backgroundColor = '#333';
+    button.style.backgroundColor = '#f2a900';
     button.style.color = '#fff';
     button.style.border = 'none';
     button.style.borderRadius = '5px';
     button.style.cursor = 'pointer';
-    button.style.display = 'none';
-
+    button.style.display = 'none'; 
     document.body.appendChild(button);
 
     window.addEventListener('scroll', () => {
@@ -23,10 +21,24 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+   
     button.addEventListener('click', () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 });
+
+
+function filterCategory(category) {
+    const items = document.querySelectorAll('.inspiracao-item');
+    items.forEach(item => {
+        const itemCategory = item.classList.contains(category) ? 'block' : 'none';
+        item.style.display = itemCategory;
+    });
+}
+
+
+
+
 
 
 
