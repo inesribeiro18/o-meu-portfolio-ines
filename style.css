@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Athena&display=swap');
+
 body {
-    font-family: 'Simple Note', cursive, sans-serif;
+    font-family: 'Athena', cursive, sans-serif;
     background-color: #f5f5f5;
     margin: 0;
     padding: 0;
 }
+
 
 
 header {
@@ -170,15 +173,17 @@ nav ul li a {
     color: #555;
 }
 
-
 footer {
     background-color: #333;
     color: white;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    margin-top: 30px; 
+    position: relative; 
+}
+
+footer p {
+    margin: 0;
 }
 
 #to-top {
